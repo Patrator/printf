@@ -19,6 +19,10 @@ int count_spec(char chr, va_list arg)
 		{"o", use_o},
 		{"x", use_hex},
 		{"X", use_HEX},
+		{"S", use_S},
+		{"p", use_p},
+		{"r", use_r},
+		{"R", use_R},
 		{NULL, NULL}
 	};
 	int j;
